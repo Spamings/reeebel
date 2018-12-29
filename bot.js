@@ -8,7 +8,7 @@ client.user.setGame("I Hate the life.");
 
 
 client.on('message', message => {
-    if(message.content === 'يوم'){
+    if(message.content === 'يوم.'){
         message.channel.send('#daily')
     }
 });
